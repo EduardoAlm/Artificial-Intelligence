@@ -172,8 +172,7 @@ def joga_rand(T):
 			elif T[x+4] != 0:
 				T=resultado(T,x,'MIN')
 				i = False
-		else:
-			x = random.randint(0,11)
+		x = random.randint(0,11)
 
 	print ('RAND joga para '),x
 	return T
@@ -194,7 +193,7 @@ def joga_utilizador(T):
 # main
 
 # deve ganhar sempre o max:
-#jogo(joga_max,joga_rand)
+jogo(joga_max,joga_rand)
 # devem empatar sempre:
 #jogo(joga_max,joga_min)
 # jogador humano vs ZI MACHINE
